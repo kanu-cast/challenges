@@ -20,9 +20,14 @@ body{
     background: #0000 !important;
     position: relative;
     min-height: 100vh !important;
+    min-width: 100vw !important;
     padding-bottom: 0;
 }
-
+.quadriple-grid {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 1px;
+}
 /* code of africa */
 
 .img-card{
@@ -45,13 +50,7 @@ body{
     font-weight: 700;
     font-size:30px;
     line-height: 34.5px;
-}
-.modal {
-    background: #000;
-    height: 100%;
-    width: 100%;
-    display: block;
- 
+    text-transform: uppercase;
 }
 .overlay{
     background: transparent;
@@ -76,7 +75,6 @@ body{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.3); 
 }
 .know-more{
     font-weight:400;
@@ -84,29 +82,53 @@ body{
     line-height:16.02px;
     opacity: 0;
     bottom: 0;
+    transition: all 0.4s ease;
+    bottom: 1rem;
 }
 .img-card:hover  .know-more{
     opacity: 1;
 }
 .img-card:hover  .photo-description{
-    transform: translateY(-22%);
+    transform: translateY(-36%);
 }
 .location{
     font-weight:400;
     font-size:12px;
     line-height:16.02px;
     z-index: 5;
+    text-transform: capitalize;
 }
 
-.quadriple-grid {
+
+/* ------ show page ----------*/
+
+/* .display{
+    width: 80%;
+    height: 20rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);;
+} */
+
+.double-grid {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-columns: 3fr 2fr;
     gap: 1px;
+    width: 80%;
 }
-
+.img-box{
+    height: 10rem;;
+    width: 100%;
+    overflow: hidden;
+}
+.show-img{
+    height: 40rem !important;
+    width: 100%;
+}
 /*--------re usables-----*/
 .clr-aqua{
     color: aqua !important;
+}
+.clr-red{
+    color: #E84949 !important;
 }
 .bg-red{
     background-color: #E84949 !important;
@@ -121,11 +143,17 @@ body{
 }
 .fill-height{
     height: 100% !important;
-    border: none !important;
+    
 }
 .fill-width{
     width: 100% !important;
-    border: none !important;
+    
+}
+.full-height{
+    height: 100vh !important;
+}
+.full-width{
+    width: 100vw!important;   
 }
 .block{display: block !important;}
 .absolute{position: absolute !important;}
@@ -155,11 +183,29 @@ body{
 }
 .mt-lg-5{
     margin-top: 1rem !important;
-}
 
+}
+.my-lg-5{
+    margin-top: 1rem !important;
+    margin-bottom:  1rem!important;
+
+}
+.px-lg-4{
+    padding-left: 1.6rem !important;
+    padding-right: 1.6rem !important;
+
+}
+.py-lg-5{
+    padding-top: 1.6rem !important;
+    padding-bottom: 1.6rem !important;
+
+}
 .d-lg-none{
     display: none !important;
 }
 .d-lg-block{
     display: block !important;
+}
+.border{
+    border: 3px solid #E84949 !important;
 }

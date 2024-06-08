@@ -4,7 +4,7 @@
 
 ## Introduction
 
-* This project simply has two files and each file carries an algorithm.
+* This project simply has two folders  i.e: algorithms & photo-gallery folders . Please note that each folder contains a separate coding challenge
   
 ## Getting started
 
@@ -14,6 +14,10 @@
 ```
  git clone https://github.com/kanu-cast/challenges.git
 ```
+
+# Algorithms Folder
+
+The first folder is algorithms folder that has two files, each file contains a separate algorithm. 
 
 1. The first file is challengeOne.js which carries the hasSubArray algorithm that checks if an array contains a subArray of numbers that sum up to the target value provided
 
@@ -37,7 +41,7 @@ node challengeOne.js
 
 
 
-# Photo-gallery
+# Photo-gallery Folder
 
 ## Introduction
 
