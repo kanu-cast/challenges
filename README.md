@@ -41,7 +41,7 @@ node challengeOne.js
 
 
 
-# Photo-gallery Folder
+# Photo-gallery Folder [![Netlify Status](https://api.netlify.com/api/v1/badges/05315896-55cd-4299-9144-a60f4e7bba17/deploy-status)](https://app.netlify.com/sites/coa-photo-gallery/deploys)
 
 ## Introduction
 
@@ -51,4 +51,6 @@ node challengeOne.js
 ## Getting started
 * Open the photo-gallery folder and run gallery.html in any browser of your choice, be sure to hover over the images to get a feel of the amazing animations and hover effects
 
+## Deployed Link
+Click me https://coa-photo-gallery.netlify.app/
 
