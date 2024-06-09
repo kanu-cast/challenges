@@ -41,7 +41,7 @@ node challengeOne.js
 
 
 
-# Photo-gallery Folder [![Netlify Status](https://api.netlify.com/api/v1/badges/05315896-55cd-4299-9144-a60f4e7bba17/deploy-status?branch=challenges)](https://app.netlify.com/sites/coa-photo-gallery/deploys)
+# Photo-gallery Folder [![Netlify Status](https://api.netlify.com/api/v1/badges/05315896-55cd-4299-9144-a60f4e7bba17/deploy-status)](https://app.netlify.com/sites/coa-photo-gallery/deploys)
 
 ## Introduction
 
