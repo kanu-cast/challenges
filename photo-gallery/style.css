@@ -24,6 +24,7 @@ body{
     padding-bottom: 0;
 }
 .quadriple-grid {
+    width: '100%';
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
     gap: 1px;
@@ -115,12 +116,12 @@ body{
     width: 80%;
 }
 .img-box{
-    height: 10rem;;
+    height: 80rem;
     width: 100%;
     overflow: hidden;
 }
 .show-img{
-    height: 40rem !important;
+    height: 80rem;;
     width: 100%;
 }
 /*--------re usables-----*/
@@ -209,3 +210,38 @@ body{
 .border{
     border: 3px solid #E84949 !important;
 }
+
+ /* ---------------- media queries ----------------- */
+
+ /* Small screens (sm) */
+@media (max-width: 640px) {
+    .img-card{
+        width:100%;
+        height: '100%';
+        
+    }
+    .photo-description{
+        display: none;
+    }
+    .know-more{
+        opacity: 1;
+    }
+  }
+
+  /* Medium screens (md) */
+@media (min-width: 768px) {
+    .img-card{
+        width:100%;
+        height: '100%';
+        
+    }
+    .know-more{
+        opacity: 1;
+    }
+    .description-box{
+        padding-right: 3rem;
+        padding-left: 3rem;
+
+    }
+  }
+  

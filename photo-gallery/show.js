@@ -1,10 +1,10 @@
 // DOM Elements
-const grid = document.querySelector('.double-grid')
+const grid = document.querySelector('.display')
 const animals = [
     { id:"1", name:"fennec", species:"fox", location:"india", image:"./assets/fox.jpeg", 
         description:`The fennec fox is a small crepuscular fox native to the deserts of North Africa, ranging from Western Sahara and Mauritania to the Sinai Peninsula. Its most distinctive feature is its unusually large ears, which serve to dissipate heat and listen for underground prey. The fennec is the smallest fox species. Wikipedia
         Trophic level: Omnivorous Encyclopedia of Life
-        Mass: 0.68 – 1.6 kg (Adult)
+        Mass: 0.68 1.6 kg (Adult)
         Scientific name: Vulpes zerda
         Conservation status: Least Concern Encyclopedia of Life
         Class: Mammalia
@@ -13,13 +13,13 @@ const animals = [
     },
     { id:"2", name:"humpback", species:"whale", location:"south africa",  image:"./assets/whale.jpeg" , 
         description:`The humpback whale is a species of baleen whale. It is a rorqual and is the only species in the genus Megaptera. Adults range in length from 14–17 m and weigh up to 40 metric tons. The humpback has a distinctive body shape, with long pectoral fins and tubercles on its head. Wikipedia
-        Mass: 25,000 – 30,000 kg
+        Mass: 25,000 30,000 kg
         Trophic level: Carnivorous Encyclopedia of Life
         Scientific name: Megaptera novaeangliae
         Conservation status: Least Concern (Population increasing) Encyclopedia of Life
-        Lifespan: 45 – 100 years
+        Lifespan: 45 100 years
         Gestation period: 11 months Encyclopedia of Life
-        Length: 15 – 16 m (Female, Adult), 13 – 14 m (Male, Adult)`
+        Length: 15 16 m (Female, Adult), 13 14 m (Male, Adult)`
     },
     { id:"3", name:"common brown", species:"baboon", location:"south africa", image:"./assets/baboon.jpeg" , 
         description:`The chacma baboon, also known as the Cape baboon, is, like all other baboons, from the Old World monkey family. It is one of the largest of all monkeys. Wikipedia
