@@ -43,13 +43,14 @@ node challengeOne.js
 
 # Photo-gallery Folder [![Netlify Status](https://api.netlify.com/api/v1/badges/05315896-55cd-4299-9144-a60f4e7bba17/deploy-status)](https://app.netlify.com/sites/coa-photo-gallery/deploys)
 
+
 ## Introduction
 
 * This project aim at implementing an interactive photo gallery as illustrated in this [Figma](https://www.figma.com/design/XF6xlvvHBv12WFveDjVoso/COA-Take-home-Challenge?node-id=0-1&t=fw1w2AjG9MySbmet-0)
 
   
 ## Getting started
-* Open the photo-gallery folder and run gallery.html in any browser of your choice, be sure to hover over the images to get a feel of the amazing animations and hover effects
+* Open the photo-gallery folder and run gallery.html in any browser of your choice, be sure to hover over the images to get a feel of the amazing animations and hover effects click on the know more link to view image in single view.
 
 ## Deployed Link
 Click me https://coa-photo-gallery.netlify.app/
