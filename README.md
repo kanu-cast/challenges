@@ -43,6 +43,7 @@ node transformString.js
 
 # Photo-gallery Folder [![Netlify Status](https://api.netlify.com/api/v1/badges/05315896-55cd-4299-9144-a60f4e7bba17/deploy-status)](https://app.netlify.com/sites/coa-photo-gallery/deploys)
 
+* Demo https://coa-photo-gallery.netlify.app/
 
 ## Introduction
 
