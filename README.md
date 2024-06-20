@@ -51,7 +51,7 @@ node transformString.js
 
   
 ## Getting started
-* Open the photo-gallery folder and run gallery.html in any browser of your choice, be sure to hover over the images to get a feel of the amazing animations and hover effects click on the know more link to view image in single view.
+* Open the photo-gallery folder and run gallery.html in any browser of your choice, be sure to hover over the images to get a feel of the amazing animations and hover effects click on the know more link to view image in single view interactively.
 
 ## Deployed Link
 Click me https://coa-photo-gallery.netlify.app/
