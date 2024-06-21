@@ -21,7 +21,7 @@ The first folder is algorithms folder that has two files, each file contains a s
 
 1. The first file is hasSubArray.js which carries the hasSubArray algorithm that checks if an array contains a subArray of numbers that sum up to the target value provided
 
-* To run this function locally open your code editor's terminal and run:
+* To run this function locally open your code editor's terminal and run this command:
 
 ```
 node hasSubArray.js
@@ -29,7 +29,7 @@ node hasSubArray.js
 
 2. The second file which is transformString.js carries a more complex algorithm called TransformString which basically checks if a string's length is divisible by 3 and returns a reversed version of the string, if the string's length is divisible by 5 it returns the ASCII code of each character in the string and if the string's length is divisible by 3 and 5 it performs both actions on the string respectively.
 
-* To run this function locally open your code editor's terminal and run:
+* To run this function locally open your code editor's terminal and run this command:
 
 ```
 node transformString.js
