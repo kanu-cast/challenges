@@ -26,7 +26,7 @@ The first folder is algorithms folder that has two files, each file contains a s
 node hasSubArray.js
 ```
 
-2. The second file which is transformString.js carries a more complex algorithm called TransformString which basically checks if a string's length is divisible by 3 and returns a reversed version of the string, if the string's length is divisible by 5 it returns the ASCII code of each character in the string and if the string's length is divisible by 3 and 5 it performs both actions on the string respectively.
+2. The second file which is transformString.js carries a more complex algorithm called TransformString which basically checks if a string's length is divisible by 3 and returns a reversed version of the string, if the string's length is divisible by 5 it returns the ASCII code of each character in the string and if the string's length is divisible by 3 and 5 it performs both actions on the string in a respective order.
 
 * To run this function locally open your code editor's terminal and run this command:
 
