@@ -1,6 +1,5 @@
 # Challenges
 
-### Solutions to coding challenges COA
 
 ## Introduction
 
